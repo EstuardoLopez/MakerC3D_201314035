@@ -12,7 +12,7 @@ public class GeneradorDeCompiladores {
     
     private static void generarCompilador(){
         try {
-            System.out.println("Creando analizadores asdf a sdf");
+            System.out.println("Creando analizadores asdf a ");
             String ruta = "src/org/compi2/codigo3d/parser/";
             String opcFlex[] = { ruta + "lexico.flex", "-d", ruta };
             jflex.Main.generate(opcFlex);

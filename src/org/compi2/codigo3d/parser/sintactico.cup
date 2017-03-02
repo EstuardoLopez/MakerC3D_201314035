@@ -6,7 +6,7 @@ import java_cup.runtime.Symbol;
 parser code
 {://Codigo visible
 
-    public void syntax_error(Symbol s){
+    public void syntax_error(Symbol  s){
         System.err.println(s);
     }
 

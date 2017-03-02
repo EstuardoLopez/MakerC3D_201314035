@@ -73,7 +73,7 @@ public class Inicio extends javax.swing.JFrame {
     private void jButton_GenerarC3DActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_GenerarC3DActionPerformed
         String texto = jTextField_Expresion.getText();
         if(texto.isEmpty()){
-            System.err.println("No es posible evaluar una cadena en blanco.");
+            System.err.println("No es posible evaluar una cadena en blanco. ");
             return;
         }
         try {
